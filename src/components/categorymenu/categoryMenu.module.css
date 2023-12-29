@@ -1,0 +1,63 @@
+.categoryList {
+  margin-top: 35px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.categoryItem {
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.categoryItem.style {
+  background-color: #a11efe31;
+}
+
+.categoryItem.fashion {
+  background-color: #97157b31;
+}
+
+.categoryItem.food {
+  background-color: #0ea46f33;
+}
+
+.categoryItem.travel {
+  background-color: #ad2d0d36;
+}
+
+.categoryItem.life {
+  background-color: #ff6f4f45;
+}
+
+.categoryItem.gaming {
+  background-color: #1480b631;}
+
+
+
+
+
+  .categoryItem.tech {
+  background-color: #064c9b31;
+}
+
+.categoryItem.science {
+  background-color: #a4191934;
+}
+
+.categoryItem.food {
+  background-color: #1aaa1e31;
+}
+
+.categoryItem.music {
+  background-color: #de370e44;
+}
+
+.categoryItem.art {
+  background-color: #ec902045;
+}
+
+.categoryItem.coding {
+  background-color: #2615df31;}

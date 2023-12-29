@@ -1,0 +1,97 @@
+.container {
+  
+}
+
+.title {
+  margin: 50px 0px;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: capitalize;
+  width: 15%;
+  height: 80px;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+
+.category.style {
+  background-color: #a11efe31;
+}
+
+.category.fashion {
+  background-color: #97157b31;
+}
+
+.category.food {
+  background-color: #0ea46f33;
+}
+
+.category.travels {
+  background-color: #ad2d0d36;
+}
+
+.category.life {
+  background-color: #ff6f4f45;
+}
+
+.category.gaming {
+  background-color: #1480b631;}
+
+  .category.tech {
+  background-color: #064c9b31;
+}
+
+.category.science {
+  background-color: #a4191934;
+}
+
+.category.food {
+  background-color: #1aaa1e31;
+}
+
+.category.music {
+  background-color: #de370e44;
+}
+
+.category.art {
+  background-color: #ec902045;
+}
+
+.category.coding {
+  background-color: #2615df31;}
+
+.image {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1280px) {
+  .category {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .category {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .category {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .category {
+    width: 100%;
+  }
+}
